@@ -1,0 +1,418 @@
+/* Utility Borders */
+.br { border: 2px solid red; }
+.bm { border: 2px solid magenta; }
+.bg { border: 2px solid gold; }
+.bb { border: 2px solid blue; }
+
+/* Global Styles */
+body {
+    /* background-color: #F9FAFB; */
+    /* color: #111827; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: #1ac1f5;
+    font-weight: 700;
+}
+
+.navbar {
+    background: #F6E9E9 !important;
+}
+
+.navbar-toggler {
+    background-color: #1ac1f5 !important;
+}
+
+/* Logo Section */
+.logo-sec {
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-sec img {
+    width: 200px;
+    height: 100px;
+    filter: brightness(200%);
+    object-fit: contain;
+}
+
+/* First Section */
+.first-main-sec {
+    min-height: 600px !important;
+    /* background: linear-gradient(359deg, #1E3A8A 10%, #F9FAFB 100%); */
+    background: #F6E9E9;
+}
+.first-data-sec {
+    min-height: 600px;
+}
+.first-right {
+    min-height: 600px;
+}
+.first-right img {
+    width: 100% !important;
+    height: 500px !important;
+    object-fit: contain !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    object-position: bottom;
+}
+
+/* Second Section */
+
+.second-main-sec h1 {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.second-data-sec {
+    min-height: 600px;
+}
+
+.first-card {
+    height: 300px;
+
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.first-card img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.first-card img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+/* Third Section */
+.third-main-sec {
+    background: #0c1a4c;
+}
+
+.third-left {
+    min-height: auto;
+}
+
+.third-right img {
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+/* Skills Section */
+.main-div {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.percentage,
+.percentage-2,
+.percentage-3,
+.percentage-4 {
+    width: 100%;
+    position: relative;
+}
+
+.percentage h4,
+.percentage-2 h4,
+.percentage-3 h4,
+.percentage-4 h4 {
+    font-size: 20px;
+    color: #1ac1f5;
+}
+
+.html1,
+.css1,
+.bootstrap1,
+.js1 {
+    width: 90%;
+    height: 10px;
+    border-radius: 30px;
+    background-color: #E5E7EB;
+}
+
+.html2 {
+    width: 98%;
+}
+
+.css2 {
+    width: 95%;
+}
+
+.bootstrap2 {
+    width: 90%;
+}
+
+.js2 {
+    width: 80%;
+}
+
+.html2,
+.css2,
+.bootstrap2,
+.js2 {
+    height: 10px;
+    border-radius: 30px;
+    background-color: #1ac1f5;
+    position: relative;
+}
+
+.percentage span,
+.percentage-2 span,
+.percentage-3 span,
+.percentage-4 span {
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    z-index: 111111;
+    color: #1ac1f5;
+}
+
+/* Websites Section (Fourth) */
+
+.fourth-card-con {
+    min-height: auto;
+    overflow: hidden;
+}
+
+.fourth-card {
+    height: 600px;
+    animation-name: slider-card;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+
+    border-radius: 12px;
+}
+
+.fourth-inner-card {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    height: 90%;
+    width: 90%;
+}
+
+.img-sec {
+    height: 450px;
+}
+
+.img-sec img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fourth-inner-card button {
+    background-color: #1ac1f5;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.fourth-inner-card button:hover {
+    background-color: #F43F5E;
+}
+
+/* Resume Section (Fifth) */
+.fifth-main-sec {
+    min-height: 100vh;
+    background: #0c1a4c;
+}
+
+.fifth-left img {
+    width: 90% !important;
+    height: 90% !important;
+    object-fit: contain;
+}
+
+/* Sixth Section */
+.sixth-main-sec {
+    background-color: white;
+    min-height: 700px;
+}
+
+.sixth-left {
+    min-height: 700px;
+}
+
+.about-section {
+    min-height: 600px;
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.about-img {
+    min-height: 500px;
+    width: 95% !important;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.btn-custom {
+    background-color: #1ac1f5 !important;
+    color: white !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.btn-custom:hover {
+    background-color: #1ac1f5 !important;
+}
+
+.launguage-sec button,
+.Interests-sec button {
+    background-color: #38BDF8;
+    color: white;
+    padding: 15px 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+    border-radius: 15px;
+    font-size: 17px;
+    border: none;
+}
+
+.launguage-sec button:hover,
+.Interests-sec button:hover {
+    background-color: #F43F5E;
+}
+
+/* Footer */
+.footer-div {
+    min-height: 500px;
+    background: #0c1a4c;
+}
+
+/* === Dark Theme Portfolio === */
+
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #00BCD4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4DD0E1;
+    text-decoration: underline;
+}
+
+header,
+nav,
+footer {
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-bottom: 1px solid #333;
+}
+
+.card,
+.section,
+.box {
+    background-color: #1E1E1E;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid #333;
+}
+
+img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #00BCD4;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4DD0E1;
+}
+
+input,
+textarea {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* === Dark Theme Additions === */
+body {
+    background-color: #0d1b4c;
+    color: #e5e7eb;
+}
+
+.navbar {
+    background-color: #1f2e6d !important;
+}
+
+.first-main-sec {
+    background-color: #0d1b4c;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.first-right {
+    position: relative;
+    z-index: 2;
+}
+
+.download-btn {
+    background-color: #ffce4b;
+    color: #0d1b4c;
+    font-weight: bold;
+}
+
+.circle-bg {
+    position: absolute;
+    /* top: 50%; */
+    /* left: 70%; */
+    width: 400px;
+    height: 400px;
+    /* transform: translate(-50%, -50%); */
+    border-radius: 50%;
+    background: radial-gradient(circle, transparent 38%, #444e76 40%, transparent 0%);
+    animation: ripple 4s linear infinite;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.circle-bg:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.circle-bg:nth-child(3) {
+    animation-delay: 2s;
+}
+
+.circle-bg:nth-child(4) {
+    animation-delay: 3s;
+}
